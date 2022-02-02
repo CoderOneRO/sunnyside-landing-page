@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+.hero {
+    height: 860px;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Fraunces";
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 120px 0px 120px 0px;
+}
+
+.header {
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.header-logo {
+    width: 10vw;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.header-links {
+    width: 90vw;
+    margin-top: 50px;
+}
+
+.header-links a {
+    margin-right: 50px;
+    font-family: "Barlow";
+    font-size: 18px;
+    color: white;
+}
+
+.header-links a:hover {
+   color: hsl(0, 0%, 100%, 60%);
+}
+
+.header-links .contact {
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    transition: 0.1s linear;
+}
+  
+.header-links .contact:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%, 30%);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    font-family: "Barlow";
+    font-size: 18px;
+    margin: 40px 0px 40px 0px;
+    color: hsl(213, 9%, 39%);
+}
+
+.cards h2 {
+    font-family: "Fraunces";
+    font-size: 40px;
+    color: hsl(212, 27%, 19%);
+}
+
+.cards a {
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    font-size: 16px;
+    color: hsl(212, 27%, 19%);
+}
+
+.cards .a-yellow {
+    border-bottom: 4px solid hsl(51, 100%, 49%);
+    border-radius: 5%;
+}
+
+.cards .a-red {  
+    border-bottom: 4px solid hsl(7, 99%, 70%);
+    border-radius: 5%;
+}
+
+.card-text1 {
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-height: 280px;
+    padding: 140px;
+}
+
+.card-text2 {
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-height: 280px;
+    padding: 140px;
+}
+
+.card-img {
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-height: 280px;
+}
+
+.img-photo {
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-height: 280px;
+    text-align: center;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    color: hsl(198, 62%, 26%);
+}
+
+.img-design {
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-height: 280px;
+    text-align: center;
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    color: hsl(167, 40%, 24%);
+}
+
+.img-text {
+    align-self: flex-end;
+    padding: 0 180px 20px 180px;
+}
+
+.img-text h3 {
+    font-family: "Fraunces";
+    font-size: 30px;
+}
+
+.img-text p {
+    font-size: 16px;
+}
+
+.testimonials {
+    width: 100vw;
+    height: 52vw;
+    padding: 120px;
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-family: "Fraunces";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonials h4 {
+    font-family: "Fraunces";
+    font-size: 18px;
+    margin: 60px 0px 10px 0px;
+    color: hsl(212, 27%, 19%);
+}
+
+.testimonials h5 {
+    font-family: "Barlow";
+    font-size: 14px;
+    margin: 10px 0;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonials p {
+    font-family: "Barlow";
+    font-size: 18px;
+    margin: 50px 0px 10px 0px;
+    color: hsl(213, 9%, 39%);
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.client {
+    padding: 40px 20px;
+}
+
+.gallery {
+    width: 100vw;
+    height: 31vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    width: 100vw;
+    height: 26vw;
+    background-color: hsl(165, 36%, 72%);
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: hsl(168, 34%, 41%);
+    font-family: "Barlow";
+    font-size: 18px;
+    margin: 14px;
+}
+
+.footer a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-logos a:hover svg path {
+    fill: hsl(0, 0%, 100%);
+}
